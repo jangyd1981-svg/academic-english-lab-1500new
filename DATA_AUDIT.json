@@ -1,0 +1,42 @@
+{
+  "release": "6.0.0",
+  "reviewDate": "2026-11-02",
+  "records": 1500,
+  "uniqueHeadwords": 1500,
+  "uniqueExamples": 1500,
+  "multiwordEntries": 19,
+  "requiredFieldOmissions": 0,
+  "pronunciationSources": {
+    "cmu": 1437,
+    "reference": 41,
+    "components": 21,
+    "inflection": 1
+  },
+  "reviewScope": {
+    "lexicalSelection": "Actual vocabulary; no artificial numbered filler, same spelling is not counted again for another part of speech. Multiword terms are counted as one vocabulary entry.",
+    "meaningExampleTranslation": "All entries authored/re-edited and editorially reviewed by the assistant; not independently reviewed by a human lexicographer.",
+    "pronunciation": "CMU ARPAbet lookup, explicit phone-to-IPA conversion, part-of-speech variant selection, visual editorial pass, recorded source exceptions. Phrase components and regular inflections identified separately.",
+    "externalSemanticDictionaryCheckAll1500": false,
+    "independentExpertReview": false,
+    "physicalIPhoneTest": false,
+    "zeroErrorGuarantee": false
+  },
+  "dataSha256": "545cb1f9969f38a92341085c474fdd152a13cf644f564eeca62849e5f1de200a",
+  "categories": {
+    "국제관계·안보": 80,
+    "연구방법·학술논증": 116,
+    "경제·정치경제": 4,
+    "학술 서술·분석 동사": 201,
+    "학술 표현·형용사": 99,
+    "논증·수식 표현": 100,
+    "학술 개념·논증": 99,
+    "연구·논문 작성": 102,
+    "정치제도·국제관계": 100,
+    "경제·경영·정치경제": 100,
+    "법·행정·공공정책": 100,
+    "통계·연구방법·데이터": 100,
+    "과학·공학·기술": 100,
+    "환경·지리·지속가능성": 100,
+    "사회·문화·교육·심리": 99
+  }
+}

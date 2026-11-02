@@ -1,0 +1,219 @@
+{
+  "app": "Academic English Lab",
+  "version": "6.0.0",
+  "testDate": "2026-11-02",
+  "scopeStatus": "PASS for the executed scopes below",
+  "passed": 40,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "1,500개 표제어·ID·예문 중복 및 필수 필드 검사",
+      "result": "PASS",
+      "environment": "Node.js"
+    },
+    {
+      "name": "1,500개 전 항목의 발음 근거 메타데이터",
+      "result": "PASS",
+      "environment": "Node.js"
+    },
+    {
+      "name": "한국 시간 자정 경계 및 날짜 유효성",
+      "result": "PASS",
+      "environment": "Node.js"
+    },
+    {
+      "name": "100일 × 15개 신규 배정: 중복 0, 101일째 0개",
+      "result": "PASS",
+      "environment": "Node.js"
+    },
+    {
+      "name": "같은 날 재접속·미접속일 이후 배정 안정성",
+      "result": "PASS",
+      "environment": "Node.js"
+    },
+    {
+      "name": "단어장에서 미리 학습한 어휘의 신규 중복 제외",
+      "result": "PASS",
+      "environment": "Node.js"
+    },
+    {
+      "name": "카드 평가·당일 회상 중복 집계 방지·간격 복습",
+      "result": "PASS",
+      "environment": "Node.js"
+    },
+    {
+      "name": "오답 저장·복습 예약 및 정답 후 오답 표식 보존",
+      "result": "PASS",
+      "environment": "Node.js"
+    },
+    {
+      "name": "1,500개 모든 퀴즈: 보기 4개·뜻 중복 0·정답 1개",
+      "result": "PASS",
+      "environment": "Node.js"
+    },
+    {
+      "name": "백업 JSON 왕복·알 수 없는 ID·오염 필드 차단",
+      "result": "PASS",
+      "environment": "Node.js"
+    },
+    {
+      "name": "백업 합치기의 이중 집계 및 중복 신규 배정 방지",
+      "result": "PASS",
+      "environment": "Node.js"
+    },
+    {
+      "name": "이전 숫자 ID는 선택한 원본 표제어로만 변환",
+      "result": "PASS",
+      "environment": "Node.js"
+    },
+    {
+      "name": "복습으로 덮어써도 연속 학습일 유지",
+      "result": "PASS",
+      "environment": "Node.js"
+    },
+    {
+      "name": "100일 전체 학습 상태 저장 크기",
+      "result": "PASS",
+      "environment": "Node.js"
+    },
+    {
+      "name": "데스크톱 첫 실행·신규 15개·전체 데이터 1,500개 로드",
+      "result": "PASS",
+      "environment": "Chromium / Playwright, inline assets; Storage adapter (local URL navigation blocked by managed browser policy)"
+    },
+    {
+      "name": "플래시카드 뒤집기·뜻/예문/번역·평가·오답 저장",
+      "result": "PASS",
+      "environment": "Chromium / Playwright, inline assets; Storage adapter (local URL navigation blocked by managed browser policy)"
+    },
+    {
+      "name": "저장 어댑터 직렬화 후 새 페이지에서 기록·신규 목록 복원",
+      "result": "PASS",
+      "environment": "Chromium / Playwright, inline assets; Storage adapter (local URL navigation blocked by managed browser policy)"
+    },
+    {
+      "name": "복습·오답 목록 표시와 명시적 오답 해제",
+      "result": "PASS",
+      "environment": "Chromium / Playwright, inline assets; Storage adapter (local URL navigation blocked by managed browser policy)"
+    },
+    {
+      "name": "영어·한국어 검색·단어 상세·출처 링크·빈 검색 결과",
+      "result": "PASS",
+      "environment": "Chromium / Playwright, inline assets; Storage adapter (local URL navigation blocked by managed browser policy)"
+    },
+    {
+      "name": "15문제 퀴즈·중복 응답 차단·정답 해설·오답 자동 저장·결과 집계",
+      "result": "PASS",
+      "environment": "Chromium / Playwright, inline assets; Storage adapter (local URL navigation blocked by managed browser policy)"
+    },
+    {
+      "name": "실제 JSON 백업 다운로드와 데이터 내용 확인",
+      "result": "PASS",
+      "environment": "Chromium / Playwright, inline assets; Storage adapter (local URL navigation blocked by managed browser policy)"
+    },
+    {
+      "name": "매일 한국 시간 오전 8시 캘린더 파일 생성",
+      "result": "PASS",
+      "environment": "Chromium / Playwright, inline assets; Storage adapter (local URL navigation blocked by managed browser policy)"
+    },
+    {
+      "name": "별도 모바일 화면의 브라우저 컨텍스트에 JSON 복원",
+      "result": "PASS",
+      "environment": "Chromium / Playwright, inline assets; Storage adapter (local URL navigation blocked by managed browser policy)"
+    },
+    {
+      "name": "백업 복원 시 퀴즈 이력 보존",
+      "result": "PASS",
+      "environment": "Chromium / Playwright, inline assets; Storage adapter (local URL navigation blocked by managed browser policy)"
+    },
+    {
+      "name": "390px 모바일 카드·버튼·본문 가로 넘침 검사",
+      "result": "PASS",
+      "environment": "Chromium / Playwright, inline assets; Storage adapter (local URL navigation blocked by managed browser policy)"
+    },
+    {
+      "name": "320px 좁은 화면 카드·설정 가로 넘침 검사",
+      "result": "PASS",
+      "environment": "Chromium / Playwright, inline assets; Storage adapter (local URL navigation blocked by managed browser policy)"
+    },
+    {
+      "name": "네트워크 없이 로드된 앱에서 검색·카드 학습·저장 로직",
+      "result": "PASS",
+      "environment": "Chromium / Playwright, inline assets; Storage adapter (local URL navigation blocked by managed browser policy)"
+    },
+    {
+      "name": "검사 중 JavaScript 런타임 오류 0개",
+      "result": "PASS",
+      "environment": "Chromium / Playwright, inline assets; Storage adapter (local URL navigation blocked by managed browser policy)"
+    },
+    {
+      "name": "서비스워커 사전 캐시 목록의 실제 배포 파일 존재·설치 분기 (모의 환경)",
+      "result": "PASS",
+      "environment": "Node.js VM with Cache/Request/Response mocks"
+    },
+    {
+      "name": "서비스워커 활성화 시 다른 앱의 캐시 보존 (모의 환경)",
+      "result": "PASS",
+      "environment": "Node.js VM with Cache/Request/Response mocks"
+    },
+    {
+      "name": "명시적 새 버전 활성화 메시지 (모의 환경)",
+      "result": "PASS",
+      "environment": "Node.js VM with Cache/Request/Response mocks"
+    },
+    {
+      "name": "네트워크 실패 시 1,500개 어휘 캐시 반환 (모의 환경)",
+      "result": "PASS",
+      "environment": "Node.js VM with Cache/Request/Response mocks"
+    },
+    {
+      "name": "미캐시 탐색의 오프라인 시작 화면 대체 (모의 환경)",
+      "result": "PASS",
+      "environment": "Node.js VM with Cache/Request/Response mocks"
+    },
+    {
+      "name": "다른 출처와 범위 밖 요청 가로채지 않음",
+      "result": "PASS",
+      "environment": "Node.js VM with Cache/Request/Response mocks"
+    },
+    {
+      "name": "저장소 사용 불가 안내 및 임시 학습 지속",
+      "result": "PASS",
+      "environment": "Chromium DOM, inline assets and Storage adapter"
+    },
+    {
+      "name": "손상된 저장 원본을 덮어쓰지 않고 보호",
+      "result": "PASS",
+      "environment": "Chromium DOM, inline assets and Storage adapter"
+    },
+    {
+      "name": "이전 200개판 실제 UI 가져오기·교체된 단어 건너뛰기·원본 보존",
+      "result": "PASS",
+      "environment": "Chromium DOM, inline assets and Storage adapter"
+    },
+    {
+      "name": "잘못된 JSON 파일 거부·현재 학습 기록 보존",
+      "result": "PASS",
+      "environment": "Chromium DOM, inline assets and Storage adapter"
+    },
+    {
+      "name": "분야 필터 및 단어장 페이지 이동",
+      "result": "PASS",
+      "environment": "Chromium DOM, inline assets and Storage adapter"
+    },
+    {
+      "name": "키보드 뒤집기·숫자 평가·단일 카드 세션 종료",
+      "result": "PASS",
+      "environment": "Chromium DOM, inline assets and Storage adapter"
+    }
+  ],
+  "notVerified": [
+    "Physical iPhone/iOS execution",
+    "Actual GitHub Pages deployment to the user repository",
+    "Native browser localStorage long-term retention",
+    "Real browser service worker installation and offline reload (local URL navigation is blocked by managed browser policy)",
+    "Audible TTS playback on the user device",
+    "Server push notifications (not implemented)"
+  ],
+  "methodNote": "Node.js core tests use the actual 1500-entry dataset. Chromium DOM tests inject the same app assets in memory and use an explicit Storage adapter; they test UI, serialization, file import/export and responsive layout. Service worker tests use a Node VM and mock cache/network objects. No browser policy or security restrictions were changed."
+}

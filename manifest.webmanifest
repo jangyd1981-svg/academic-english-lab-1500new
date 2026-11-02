@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "Academic English Lab",
+  "short_name": "Academic Lab",
+  "description": "1,500개 학술 어휘 · 하루 15개 플래시카드와 복습",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f5f0",
+  "theme_color": "#142e46",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

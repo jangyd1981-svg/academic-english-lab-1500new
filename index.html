@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#142e46"><meta name="description" content="하루 15개, 1,500개 학술 영어 플래시카드와 복습. 기기 내 저장 및 오프라인 학습.">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Academic Lab">
+<title>Academic English Lab · 1500</title>
+<link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="./icon-192.png"><link rel="icon" href="./icon-192.png">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<a class="skip" href="#main">본문으로 이동</a>
+<header class="topbar"><div class="brand"><div class="mark" aria-hidden="true">A<span>e</span></div><div><strong>Academic English Lab</strong><small>매일 조금씩, 더 넓은 언어로.</small></div></div><span class="edition">1500 EDITION</span></header>
+<div id="storageWarning" class="notice danger" hidden role="alert"></div>
+<div id="updateNotice" class="notice" hidden>새 버전을 사용할 수 있습니다. <button id="applyUpdate">학습 기록을 유지하고 업데이트</button></div>
+<main id="main" tabindex="-1"><p class="loading">1,500개 어휘를 준비하고 있습니다…</p></main>
+<nav class="tabs" aria-label="주 메뉴">
+<button data-nav="today" class="active"><span aria-hidden="true">◷</span>오늘 학습</button>
+<button data-nav="cards"><span aria-hidden="true">▤</span>플래시카드</button>
+<button data-nav="review"><span aria-hidden="true">↻</span>복습·오답</button>
+<button data-nav="library"><span aria-hidden="true">⌕</span>단어장</button>
+<button data-nav="stats"><span aria-hidden="true">▥</span>진도·설정</button>
+</nav>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="wordDialog"><button class="dialog-close" data-action="close-dialog" aria-label="닫기">×</button><div id="dialogBody"></div></dialog>
+<input id="restoreFile" type="file" accept="application/json,.json" hidden>
+<noscript>이 앱은 JavaScript가 켜져 있어야 작동합니다.</noscript>
+<script src="./words.js"></script><script src="./legacy.js"></script><script src="./core.js"></script><script src="./app.js"></script>
+</body></html>
